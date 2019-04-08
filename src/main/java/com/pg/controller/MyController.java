@@ -11,7 +11,7 @@ public class MyController extends AbstractController{
 	@Override
 	protected ModelAndView handleRequestInternal(HttpServletRequest request, HttpServletResponse response)
 			throws Exception {
-		
+		System.out.println("Hello friends");
 		return new ModelAndView("home");
 	}
 
